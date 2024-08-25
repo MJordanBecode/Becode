@@ -1,0 +1,10 @@
+alice.johnson@example.com
+bob.smith@example.net
+carol.martin@example.org
+david.lee@example.co
+emma.white@example.edu
+frank.taylor@example.biz
+grace.wilson@example.info
+hank.moore@example.tv
+isabella.jones@example.museum
+jackson.brown@example.asia

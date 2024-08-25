@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body main .divContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+  }
+  body main .divContainer .divImg img {
+    border-radius: 52%;
+    width: 50%;
+  }/*# sourceMappingURL=style.css.map */

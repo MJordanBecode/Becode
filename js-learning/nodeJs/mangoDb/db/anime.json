@@ -1,0 +1,38 @@
+[
+    {
+        "title": "Attack on Titan",
+        "genre": ["Action", "Fantasy", "Drama"],
+        "episodes": 75,
+        "release_year": 2013,
+        "main_characters": ["Eren Yeager", "Mikasa Ackerman", "Armin Arlert"],
+        "studio": "Wit Studio",
+        "rating": 8.52
+    },
+    {
+        "title": "Naruto",
+        "genre": ["Action", "Adventure", "Shounen"],
+        "episodes": 220,
+        "release_year": 2002,
+        "main_characters": ["Naruto Uzumaki", "Sasuke Uchiha", "Sakura Haruno"],
+        "studio": "Studio Pierrot",
+        "rating": 7.93
+    },
+    {
+        "title": "Death Note",
+        "genre": ["Mystery", "Psychological", "Thriller"],
+        "episodes": 37,
+        "release_year": 2006,
+        "main_characters": ["Light Yagami", "L", "Ryuk"],
+        "studio": "Madhouse",
+        "rating": 8.63
+    },
+    {
+        "title": "My Hero Academia",
+        "genre": ["Action", "Super Power", "School"],
+        "episodes": 113,
+        "release_year": 2016,
+        "main_characters": ["Izuku Midoriya", "Katsuki Bakugo", "Shoto Todoroki"],
+        "studio": "Bones",
+        "rating": 8.04
+    }
+]

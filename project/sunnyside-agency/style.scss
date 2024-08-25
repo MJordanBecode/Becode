@@ -1,0 +1,529 @@
+/*Import font*/
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap');
+.fraunces-uniquifier {
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "SOFT" 0,
+      "WONK" 0;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  .barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+// Mixin 
+@mixin display{
+    display: flex;
+}
+
+@mixin rectBorder{
+    border-radius: 20px;
+}
+
+@mixin circle{
+    width : 100px;
+clip-path: circle(46px) ;
+margin-bottom: 5%;
+}
+
+@mixin txt-client{
+    text-align: center;
+    max-width: 100%;
+    padding : {
+        left: 25%;
+        right: 25%;
+        bottom: 5%;
+    }
+    font-size: 18px;
+    color: $very;
+    ;
+}
+
+@mixin pos-client{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin color-client-h1{
+    
+    & h1{
+        color: $bleu ;
+    }
+
+    & h6{
+        color: $grayish;
+        padding-top: 2%;
+        font-size: 14px;
+    }
+    
+}
+// 
+
+//Variable typography
+$fraunces : 'Fraunces';
+$Barlow : 'Barlow';
+$rectangles : '.rectangle';
+
+// Variable color
+$Soft: hsl(7, 99%, 70,0.4);
+$Yellow: hsl(51, 100%, 49%,0.3);
+$graphic: (graphic design text) hsl(167, 40%, 24%);
+$photography: (photography text) hsl(198, 62%, 26%);
+$cyan : (footer) hsl(168, 34%, 41%);
+$cerise : hsla(166, 40%, 24%, 1);
+$bleu: hsl(212, 27%, 19%);
+$very: hsl(213, 9%, 39%);
+$dark: hsl(232, 10%, 55%);
+$grayish: hsl(210, 4%, 67%,1);
+$white: hsl(0, 0%, 100%);
+//
+
+html, body, *{
+margin: 0;
+padding: 0;
+}
+
+
+header{
+background : {
+    image : url(./assets/images/photos/image-header.jpg);
+    size: cover;
+    position: bottom;
+  
+}
+height: 100vh;
+
+
+
+
+/* Header */
+#navBar{
+
+    display: flex;
+    justify-content: space-between;
+    // align-items: flex-end;
+    font-size: 20px;
+
+    padding: {
+        top: 1%;
+        left: 1%;
+        right: 1%;
+    }
+
+    & ul {
+        display: flex;
+        align-items: center;
+        
+        }
+    & a{
+        list-style: none;
+        text-decoration: none;
+        color: white;   
+    }
+
+
+
+    & li {
+        list-style: none;
+        padding: 0 20px;
+    }
+
+    #contact{
+        color: black;
+        display: flex;
+        justify-content: center;
+        border : {
+            width: 2px;
+            radius: 20px;
+        }
+        background-color: hsla(0, 0%, 100%, 1);
+
+        padding : {
+            top: 8%;
+            bottom: 8%;
+            
+        }
+
+        &:hover{
+            background-color: rgb(255, 255, 255,0.3);
+        }
+
+    }
+    
+}
+
+h1{
+    color: white;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: space-around;
+    font-size: 4rem;
+    padding-top: 2%;
+    letter-spacing: 0.7rem;
+}
+
+#arrow{
+    display: flex;
+    margin-left: 48.3%;
+    margin-top: 8.3%;
+}
+
+}
+
+/*Main*/
+#main1{
+    display: flex;
+    //Square.s 
+    .square{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 50%;
+        height: 80vh;
+
+        
+
+        //Center h1 in the square
+        & > h1{
+            display: flex;
+            margin-left: 20%;
+            margin-top: 17%;
+            margin-bottom: 3%;
+            align-items: center;
+            color: $bleu;
+            margin-right: 23%;
+            text-wrap: balance;
+            font-size: 7vh;
+            font-family: $fraunces;
+        }
+        & > p{
+            display: flex;
+            justify-content: center;
+            text-wrap: balance;
+            margin-left: 20%;
+            margin-right: 23%;
+            margin-bottom: 5%;
+            font-size: 2.8vh;
+            color: $dark;
+            font-family: $Barlow;
+
+        }
+        & > a{
+            display: flex;
+            margin-top: 27.1%;
+            margin-left: 10.3%;
+            margin-bottom: 0;
+            position: absolute;
+            text-transform: uppercase;
+            font-family: $fraunces;
+            color: $bleu;
+            text-decoration: none;
+
+        }
+        /*create rectangle under Learn More*/
+        .rectangle {
+            // display: flex;
+            // flex-direction: column-reverse;
+            // justify-items: end;
+            width: 105px;
+            height: 10px;
+            margin-top: 0;
+            margin-left: 20%;
+            background-color: $Yellow;
+            @include rectBorder();
+            // border-radius: 20px;
+          }
+    }
+
+    #egg{
+        display: flex;
+        width: 50.3%;
+        height: 80.6vh;
+    }
+
+    #square2{
+        display: flex;
+    }
+    
+}
+
+#main2{
+    display: flex;
+    flex-direction: row;
+    .square{
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-start;
+        width: 50%;
+        height: 80vh;
+
+        
+
+        //Center h1 in the square
+        & > h1{
+            display: flex;
+            margin-left: 20%;
+            margin-top: 17%;
+            margin-bottom: 3%;
+            align-items: center;
+            color: $bleu;
+            margin-right: 23%;
+            text-wrap: balance;
+            font-size: 7vh;
+            font-family: $fraunces;
+        }
+        & > p{
+            display: flex;
+            justify-content: center;
+            text-wrap: balance;
+            margin-left: 20%;
+            margin-right: 23%;
+            margin-bottom: 5%;
+            font-size: 2.8vh;
+            color: $dark;
+            font-family: $Barlow;
+
+        }
+        & > a{
+            display: flex;
+            margin-top: 27.1%;
+            margin-left: 10.3%;
+            margin-bottom: 0;
+            position: absolute;
+            text-transform: uppercase;
+            font-family: $fraunces;
+            color: $bleu;
+            text-decoration: none;
+
+        }
+        /*create rectangle under Learn More*/
+        .rectangle {
+            width: 105px;
+            height: 10px;
+            margin-top: 0;
+            margin-left: 20%;
+            background-color: $Soft;
+            @include rectBorder();
+          }
+    }
+    #glasses{
+        display: flex;
+        width: 49.9%;
+        height: 80.2vh;
+        margin: 0;
+        padding: 0;
+    }
+}
+#main3{
+    display: flex;
+
+   
+
+    #img-cerise{
+        width: 49.9%;
+        flex: 1;
+        display: flex;
+
+        & img{
+            width: 100%;
+        }
+    }
+    
+    #pos-cerise{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        margin-top: 28%;
+
+        & h1 {
+            font-size: 50px;
+            font-family: $fraunces;
+            color: $cerise;
+        }
+        & p{
+            text-wrap: balance;
+            margin-right: 28%;
+            text-align: center;
+            margin-left: 29%;
+            margin-top: 5%;
+            font-size: 16px;
+            color: hsla(166, 30%, 35%, 1);
+            font-family: $Barlow;
+
+        }
+    }
+
+    #img-orange{
+        display: flex;
+        width: 50%;
+        flex: 1;
+        
+    }
+
+    #pos-orange{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        margin-top: 28%;
+        margin-left: 6%;
+        & h1 {
+            font-size: 50px;
+            font-family: $fraunces;
+            color: $bleu;
+        }
+        & p{
+            text-wrap: balance;
+            margin-right: 28%;
+            text-align: center;
+            margin-left: 29%;
+            margin-top: 5%;
+            font-size: 16px;
+            color:$bleu ;
+            font-family: $Barlow;
+
+        }
+    }
+
+}
+
+#main-client{
+    padding-top: 9%;
+
+    h1{
+        text-align: center;
+        padding-bottom: 6%;
+    }
+#container-client{
+    display: flex;
+
+    & #client1{
+
+        @include pos-client();
+
+            & img{
+                @include circle();
+            }
+
+            & p{
+                @include txt-client()
+            }
+
+            @include color-client-h1();
+    }
+    #client2{
+
+        @include pos-client();
+            & img{
+                @include circle();
+            }
+
+            & p{
+                @include txt-client();
+            }
+
+            @include color-client-h1();
+    }
+    #client3{
+
+        @include pos-client();
+
+        & img{
+            @include circle();
+        }
+        & p{
+            @include txt-client();
+            text-wrap:balance;
+        }
+
+        @include color-client-h1();
+    }
+}
+}
+
+#img-grp{
+    display: flex;
+    flex: 1;
+    padding-top: 12%;
+    
+    & img{
+        width: 25%;
+    }
+}
+
+#footer{
+    background-color: hsla(168, 44%, 70%, 1);
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    // align-items: center;
+
+    & div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    & div img{
+        width: 63%;
+        
+    }
+
+    & ul img{
+        
+        width: 20px;
+        height: 30px;
+        top: 4082px;
+        left: 637px;
+
+    }
+
+    & ul {
+        display: flex;
+        align-items: center;
+        
+        }
+    & a{
+        list-style: none;
+        text-decoration: white;
+        color: hsla(167, 34%, 41%, 1);   
+    }
+
+    & li {
+        list-style: none;
+        padding: 0 15px;
+        font-size: 22px;
+        font-family: $Barlow;
+    }
+
+
+    & #pos-img-f img{
+        width: 30px;
+    }
+
+    & #pos-img-f img:hover{
+        filter: brightness(0) saturate(100%) invert(100%) sepia(78%) saturate(0%) hue-rotate(178deg) brightness(106%) contrast(101%);
+    }
+
+    & #logoSvg{
+        filter: brightness(0) saturate(100%) invert(38%) sepia(44%) saturate(466%) hue-rotate(118deg) brightness(93%) contrast(97%);
+    }
+}
+
+
+/* =================== Media Query ================ */
+
+@media only screen and (max-width: 600px) {
+    *{
+        display: none;
+    }
+} 

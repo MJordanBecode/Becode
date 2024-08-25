@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
+
+body {
+    background-image: url('https://www.hdwallpapers.in/download/harry_potter_hogwarts_castle-1920x1080.jpg');
+    background-size: cover;
+    font-family: 'Almendra SC', serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 300px;
+}
+
+.form-container h1 {
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.form-container input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-container input[type="email"],
+.form-container input[type="password"] {
+    background-color: #f3e5ab;
+    font-size: 1em;
+}
+
+.form-container input[type="submit"] {
+    background-color: #b8860b;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #daa520;
+}
