@@ -18,3 +18,15 @@ You can find on my repository all the technologies I have [studied](https://gith
 |      |                       Az Store 👟                        |  [Az-Store](https://github.com/nyxisnyx/az-store)                                |     /        |                                                                                                       ![html](assets/images/technologies/html.png) ![css](assets/images/technologies/css.png) ![js](assets/images/technologies/js.png) ![php](assets/images/technologies/php.png)                                                                                                       |         Group |
 |      |    Pokedex ![pokeball](assets/images/icons8-pokeball-24.png)         | [Pokedex](https://github.com/Yourisrachid/Pokedex) |  /   |![html](assets/images/technologies/html.png) ![css](assets/images/technologies/css.png) ![sass](assets/images/technologies/sass.png) ![js](assets/images/technologies/js.png) ![php](assets/images/technologies/php.png)                                                                                 |         Group |
 |      |                          Cogip                           |                               [Cogip](https://github.com/manu-cj/cogip)                              |       /      | ![html](assets/images/technologies/html.png) ![css](assets/images/technologies/css.png) ![vite](assets/images/technologies/viteJs.png) ![react](assets/images/technologies/react.png) ![tailwind](assets/images/technologies/tailwind.png) ![js](assets/images/technologies/js.png) ![mongoDb](assets/images/technologies/mongoDb.png) ![nodeJs](assets/images/technologies/nodeJs.png) |         Group |
+
+
+# More Details of the Projects
+
+## vCard
+In this project, we had to create a map that brought together all the information about us! A bit like a business card. [More Info]()
+
+## SunnySide
+In this project, we had received a template to follow and therefore, we had to copy it. [More Info]()
+
+## The Collection 
+In this project, we had to create a site that listed all the films, series or anime that we had already seen without using an API. I'm doing it again with all the new technologies I've learned. [More Info]()
