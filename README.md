@@ -17,4 +17,4 @@ You can find on my repository all the technologies I have [studied](https://gith
 |      |   Didlydoo 🗒️  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
 |      |   Hackers Poulette 🗒️  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
 |      |   Az Store 👟  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
-|      |   Pokedex  ![pokeball](assets/images/icons8-pokeball-48.png) |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
+|      |   Pokedex  ![pokeball](assets/images/icons8-pokeball-24.png) |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
