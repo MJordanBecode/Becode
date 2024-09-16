@@ -20,6 +20,7 @@ You can find on my repository all the technologies I have [studied](https://gith
 |      |                          Cogip                           |                               [Cogip](https://github.com/manu-cj/cogip)                              |       /      | ![html](assets/images/technologies/html.png) ![css](assets/images/technologies/css.png) ![vite](assets/images/technologies/viteJs.png) ![react](assets/images/technologies/react.png) ![tailwind](assets/images/technologies/tailwind.png) ![js](assets/images/technologies/js.png) ![mongoDb](assets/images/technologies/mongoDb.png) ![nodeJs](assets/images/technologies/nodeJs.png) |         Group |
 
 
+
 # More Details of the Projects
 
 ## vCard
@@ -30,3 +31,31 @@ In this project, we had received a template to follow and therefore, we had to c
 
 ## The Collection 
 In this project, we had to create a site that listed all the films, series or anime that we had already seen without using an API. I'm doing it again with all the new technologies I've learned. [More Info]()
+
+## Dark Kitchen 
+In this project, we had to create a fast food site where the user could choose several items and then pay. [More Info]()
+
+## To do List
+In this project, we had to create a simple todo list. [More Info]()
+
+## Project Planner
+In this project, we had to create a simple todo list with delete, patch, post features in an API. [More Info]()
+
+## Weather App 
+In this project, we had to create a simple weather app that retrieved data from an API and displayed it. Then, we had to be able to send a request with the name of the city to the API which gave us the information we had to display. [More Info]()
+
+## Didlydoo 
+Dans ce projet, nous devions créer une simple to do list avec une api, avec tout le système de CRUD. [More Info]()
+
+## Hackers Poulette 
+
+In this project, we had to create a CRUD to a mySql data Base with the help of PHP. We send it data, it sends it back to us and we have to display it in a table. [More Info]()
+
+## Az Store
+In this project, we had to recreate a shoe purchasing site in PHP using a template. There was a whole CRUD system in PHP. [More Info]()
+
+## Pokedex
+In this project, we had to recreate the Pokédex from the pokemon game. So display all the data for all the pokemons and all the seasons on our site in PHP. [More Info]()
+
+## Cogip
+In this project, we needed to recreate a business invoicing site. That is to say that we had to create an API from A to Z which sent the data to the frontend and conversely, the frontend had to communicate with our API.. [More Info]()
