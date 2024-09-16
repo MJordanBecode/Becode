@@ -7,7 +7,7 @@ You can find on my repository all the technologies I have [studied](https://gith
 
 |   Date        |   Name of the Project |   Repository |   Technologies used |   Prix    |
 |---            |:-:                    |:-:           |:-:                  |--:    |
-|      |   vCard 🪪  |   ```&#x1F600;``` |   ![html](https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png) ![css]([https://user-images.githubusercontent.com/25181517/192158954-f88b5814-d510-4564-b285-dff7d6400dad.png](https://user-images.githubusercontent.com/25181517/183898674-75a4a1b1-f960-4ea9-abcb-637170a00a75.png))|   0.05 €  |
+|      |   vCard 🪪  |   ```&#x1F600;``` |   ![html](assets/images/technologies/html.png) ![css](assets/images/technologies/css.png)|   0.05 €  |
 |      |   SunnySide 🪞  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
 |      |   The Collection ![](assets/images/escabeau.png)  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
 |      |   Dark Kitchen 🍔  |   ```&#x1F600;``` |   ```&#128512;``` |   0.05 €  |
