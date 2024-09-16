@@ -60,7 +60,10 @@ In this project, we had to recreate the Pokédex from the pokemon game. So displ
 ## Cogip
 In this project, we needed to recreate a business invoicing site. That is to say that we had to create an API from A to Z which sent the data to the frontend and conversely, the frontend had to communicate with our API.. [More Info]()
 ## 
-[![GitHub](https://img.shields.io/badge/Visit-My%20GitHub-green?style=for-the-badge&logo=github)](https://github.com/MJordanBecode)
+<div align="center">
+  
+  [![GitHub](https://img.shields.io/badge/Visit-My%20GitHub-green?style=for-the-badge&logo=github)](https://github.com/MJordanBecode)
 
+</div>
 
 
