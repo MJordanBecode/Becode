@@ -4,9 +4,13 @@ You can find on my repository all the technologies I have [studied](https://gith
 
 ---
 
-## Tables des matiéres
+<h2 style="color: #73d061;">Tables of contents</h2>
 
----
+1. [directory of all my projects](#directory-of-all-my-projects)
+2. [More Details of the Projects](#more-details-of-the-projects)
+3. [Return to the main page](#return-to-the-main-page)
+
+## directory of all my projects
 
 | Date     |                    Name of the Project                    |                                          Repository                                           |                           Deployment                            |                                                                                                                                                                                    Technologies used                                                                                                                                                                                    | Solo or Group |                     More Detail |
 | -------- | :-------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :-------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | ------------: | ------------------------------: |
@@ -73,10 +77,12 @@ In this project, we had to recreate the Pokédex from the pokemon game. So displ
 
 In this project, we needed to recreate a business invoicing site. That is to say that we had to create an API from A to Z which sent the data to the frontend and conversely, the frontend had to communicate with our API.. [More Info]()
 
-##
+## Return to the main page
+
+<span style="color: #98FB98;">Thank you for taking the time to look at my projects! I hope you find them nice. See you soon</span>
 
 <div align="center">
   
-  [![GitHub](https://img.shields.io/badge/Visit-My%20GitHub-green?style=for-the-badge&logo=github)](https://github.com/MJordanBecode)
+  [![GitHub](https://img.shields.io/badge/Main%20Page-green?style=for-the-badge&logo=github)](https://github.com/MJordanBecode)
 
 </div>
