@@ -66,4 +66,3 @@ In this project, we needed to recreate a business invoicing site. That is to say
 </div>
 
 
->>>>>>> 70a75364ad43fc4e0b5c7c8d4a6765d64edaf816
